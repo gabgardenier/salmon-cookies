@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(167, 167, 167, 0.884);
+    font-family: 'Nunito', sans-serif;
+}
+
+#container {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Chango', cursive;
+}
+
+h1 {
+   float: left; 
+   padding-left: 1em;
+}
+
+#search {
+    float: left;
+    padding: 1.25em;
+}
+
+#search input {
+    padding: 0.5em;
+}
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+#navigation {
+    background-color: rgb(49, 97, 255)
+}
+
+#navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navigation li {
+    float: left;
+    padding: 10px 30px;
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+#navigation li:hover {
+    background-color: white;
+    cursor: pointer;
+}
